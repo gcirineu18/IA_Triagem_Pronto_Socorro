@@ -1,0 +1,400 @@
+
+Caso 1:
+Saturacao: Reduzida, PressaoArt: Normal, NivelDor: Moderada, Febre: Nao, FreqCard: Normal, 
+Gravidade - Alta: 0.0006, Gravidade - Media: 0.9311, Gravidade - Baixa: 0.0683, 
+
+Caso 2:
+Saturacao: Normal, Febre: Sim, PressaoArt: Alta, 
+Gravidade - Alta: 0.4575, Gravidade - Media: 0.4838, Gravidade - Baixa: 0.0587, 
+
+Caso 3:
+Saturacao: Critica, 
+Gravidade - Alta: 0.8833, Gravidade - Media: 0.0953, Gravidade - Baixa: 0.0214, 
+
+Caso 4:
+FreqCard: Alta, 
+Gravidade - Alta: 0.6696, Gravidade - Media: 0.2698, Gravidade - Baixa: 0.0607, 
+
+Caso 5:
+Saturacao: Normal, PressaoArt: Baixa, 
+Gravidade - Alta: 0.0370, Gravidade - Media: 0.5390, Gravidade - Baixa: 0.4240, 
+
+Caso 6:
+Febre: Nao, 
+Gravidade - Alta: 0.2115, Gravidade - Media: 0.5192, Gravidade - Baixa: 0.2694, 
+
+Caso 7:
+FreqCard: Normal, Febre: Nao, Saturacao: Critica, PressaoArt: Alta, 
+Gravidade - Alta: 0.6702, Gravidade - Media: 0.2742, Gravidade - Baixa: 0.0556, 
+
+Caso 8:
+PressaoArt: Alta, Saturacao: Critica, NivelDor: Moderada, 
+Gravidade - Alta: 0.9022, Gravidade - Media: 0.0916, Gravidade - Baixa: 0.0062, 
+
+Caso 9:
+PressaoArt: Baixa, FreqCard: Normal, Febre: Sim, Saturacao: Critica, NivelDor: Intensa, 
+Gravidade - Alta: 0.6850, Gravidade - Media: 0.3032, Gravidade - Baixa: 0.0117, 
+
+Caso 10:
+NivelDor: Intensa, FreqCard: Baixa, 
+Gravidade - Alta: 0.4054, Gravidade - Media: 0.4921, Gravidade - Baixa: 0.1025, 
+
+Caso 11:
+PressaoArt: Alta, Febre: Nao, 
+Gravidade - Alta: 0.5381, Gravidade - Media: 0.3523, Gravidade - Baixa: 0.1097, 
+
+Caso 12:
+PressaoArt: Alta, FreqCard: Alta, NivelDor: Intensa, Saturacao: Reduzida, Febre: Nao, 
+Gravidade - Alta: 0.8567, Gravidade - Media: 0.1402, Gravidade - Baixa: 0.0031, 
+
+Caso 13:
+FreqCard: Baixa, Febre: Nao, Saturacao: Normal, PressaoArt: Alta, 
+Gravidade - Alta: 0.0874, Gravidade - Media: 0.5519, Gravidade - Baixa: 0.3606, 
+
+Caso 14:
+Febre: Sim, NivelDor: Moderada, 
+Gravidade - Alta: 0.2338, Gravidade - Media: 0.7273, Gravidade - Baixa: 0.0389, 
+
+Caso 15:
+PressaoArt: Normal, Saturacao: Critica, NivelDor: Leve, 
+Gravidade - Alta: 0.1194, Gravidade - Media: 0.3759, Gravidade - Baixa: 0.5047, 
+
+Caso 16:
+FreqCard: Baixa, 
+Gravidade - Alta: 0.1790, Gravidade - Media: 0.5796, Gravidade - Baixa: 0.2413, 
+
+Caso 17:
+FreqCard: Normal, 
+Gravidade - Alta: 0.0510, Gravidade - Media: 0.6745, Gravidade - Baixa: 0.2744, 
+
+Caso 18:
+FreqCard: Alta, PressaoArt: Normal, 
+Gravidade - Alta: 0.1857, Gravidade - Media: 0.6545, Gravidade - Baixa: 0.1598, 
+
+Caso 19:
+Saturacao: Normal, Febre: Nao, FreqCard: Normal, NivelDor: Moderada, 
+Gravidade - Alta: 0.0019, Gravidade - Media: 0.6515, Gravidade - Baixa: 0.3466, 
+
+Caso 20:
+Saturacao: Normal, Febre: Sim, PressaoArt: Alta, 
+Gravidade - Alta: 0.4575, Gravidade - Media: 0.4838, Gravidade - Baixa: 0.0587, 
+
+Caso 21:
+NivelDor: Moderada, Febre: Sim, Saturacao: Reduzida, PressaoArt: Alta, 
+Gravidade - Alta: 0.3237, Gravidade - Media: 0.6712, Gravidade - Baixa: 0.0052, 
+
+Caso 22:
+Saturacao: Reduzida, PressaoArt: Alta, Febre: Nao, FreqCard: Baixa, 
+Gravidade - Alta: 0.2084, Gravidade - Media: 0.7309, Gravidade - Baixa: 0.0607, 
+
+Caso 23:
+FreqCard: Baixa, 
+Gravidade - Alta: 0.1790, Gravidade - Media: 0.5796, Gravidade - Baixa: 0.2413, 
+
+Caso 24:
+Febre: Nao, 
+Gravidade - Alta: 0.2115, Gravidade - Media: 0.5192, Gravidade - Baixa: 0.2694, 
+
+Caso 25:
+Saturacao: Reduzida, Febre: Sim, 
+Gravidade - Alta: 0.3068, Gravidade - Media: 0.6759, Gravidade - Baixa: 0.0174, 
+
+Caso 26:
+Saturacao: Reduzida, NivelDor: Moderada, 
+Gravidade - Alta: 0.0670, Gravidade - Media: 0.8929, Gravidade - Baixa: 0.0402, 
+
+Caso 27:
+Febre: Sim, 
+Gravidade - Alta: 0.5062, Gravidade - Media: 0.4461, Gravidade - Baixa: 0.0478, 
+
+Caso 28:
+FreqCard: Alta, PressaoArt: Alta, 
+Gravidade - Alta: 0.8913, Gravidade - Media: 0.0958, Gravidade - Baixa: 0.0129, 
+
+Caso 29:
+NivelDor: Leve, 
+Gravidade - Alta: 0.0609, Gravidade - Media: 0.3068, Gravidade - Baixa: 0.6323, 
+
+Caso 30:
+Febre: Sim, Saturacao: Normal, FreqCard: Alta, PressaoArt: Baixa, 
+Gravidade - Alta: 0.2800, Gravidade - Media: 0.6345, Gravidade - Baixa: 0.0855, 
+
+Caso 31:
+Febre: Nao, NivelDor: Moderada, Saturacao: Normal, PressaoArt: Baixa, 
+Gravidade - Alta: 0.0077, Gravidade - Media: 0.6425, Gravidade - Baixa: 0.3498, 
+
+Caso 32:
+PressaoArt: Alta, Saturacao: Reduzida, Febre: Sim, 
+Gravidade - Alta: 0.6263, Gravidade - Media: 0.3680, Gravidade - Baixa: 0.0057, 
+
+Caso 33:
+NivelDor: Leve, PressaoArt: Alta, Saturacao: Critica, FreqCard: Normal, Febre: Nao, 
+Gravidade - Alta: 0.2574, Gravidade - Media: 0.3510, Gravidade - Baixa: 0.3916, 
+
+Caso 34:
+FreqCard: Normal, 
+Gravidade - Alta: 0.0510, Gravidade - Media: 0.6745, Gravidade - Baixa: 0.2744, 
+
+Caso 35:
+PressaoArt: Normal, FreqCard: Normal, Febre: Nao, Saturacao: Reduzida, NivelDor: Intensa, 
+Gravidade - Alta: 0.0053, Gravidade - Media: 0.9267, Gravidade - Baixa: 0.0680, 
+
+Caso 36:
+Febre: Sim, 
+Gravidade - Alta: 0.5062, Gravidade - Media: 0.4461, Gravidade - Baixa: 0.0478, 
+
+Caso 37:
+FreqCard: Alta, Saturacao: Reduzida, Febre: Nao, NivelDor: Leve, PressaoArt: Baixa, 
+Gravidade - Alta: 0.0555, Gravidade - Media: 0.6484, Gravidade - Baixa: 0.2961, 
+
+Caso 38:
+Febre: Nao, FreqCard: Normal, NivelDor: Intensa, PressaoArt: Alta, Saturacao: Reduzida, 
+Gravidade - Alta: 0.1518, Gravidade - Media: 0.8151, Gravidade - Baixa: 0.0331, 
+
+Caso 39:
+FreqCard: Normal, Saturacao: Critica, 
+Gravidade - Alta: 0.4598, Gravidade - Media: 0.4342, Gravidade - Baixa: 0.1060, 
+
+Caso 40:
+PressaoArt: Alta, NivelDor: Intensa, Febre: Nao, 
+Gravidade - Alta: 0.7790, Gravidade - Media: 0.1912, Gravidade - Baixa: 0.0298, 
+
+Caso 41:
+Saturacao: Normal, NivelDor: Intensa, Febre: Nao, 
+Gravidade - Alta: 0.1394, Gravidade - Media: 0.5776, Gravidade - Baixa: 0.2830, 
+
+Caso 42:
+NivelDor: Intensa, PressaoArt: Alta, Saturacao: Normal, Febre: Sim, 
+Gravidade - Alta: 0.7039, Gravidade - Media: 0.2792, Gravidade - Baixa: 0.0169, 
+
+Caso 43:
+FreqCard: Alta, 
+Gravidade - Alta: 0.6696, Gravidade - Media: 0.2698, Gravidade - Baixa: 0.0607, 
+
+Caso 44:
+PressaoArt: Normal, Saturacao: Normal, NivelDor: Leve, FreqCard: Alta, 
+Gravidade - Alta: 0.0053, Gravidade - Media: 0.2813, Gravidade - Baixa: 0.7134, 
+
+Caso 45:
+Febre: Nao, Saturacao: Reduzida, FreqCard: Baixa, 
+Gravidade - Alta: 0.0626, Gravidade - Media: 0.8234, Gravidade - Baixa: 0.1139, 
+
+Caso 46:
+Febre: Nao, NivelDor: Moderada, Saturacao: Reduzida, FreqCard: Baixa, 
+Gravidade - Alta: 0.0198, Gravidade - Media: 0.9168, Gravidade - Baixa: 0.0634, 
+
+Caso 47:
+NivelDor: Moderada, 
+Gravidade - Alta: 0.1364, Gravidade - Media: 0.7273, Gravidade - Baixa: 0.1363, 
+
+Caso 48:
+PressaoArt: Normal, 
+Gravidade - Alta: 0.0510, Gravidade - Media: 0.6745, Gravidade - Baixa: 0.2744, 
+
+Caso 49:
+FreqCard: Alta, NivelDor: Leve, 
+Gravidade - Alta: 0.2498, Gravidade - Media: 0.3354, Gravidade - Baixa: 0.4148, 
+
+Caso 50:
+FreqCard: Alta, NivelDor: Leve, 
+Gravidade - Alta: 0.2498, Gravidade - Media: 0.3354, Gravidade - Baixa: 0.4148, 
+
+Caso 51:
+Febre: Sim, PressaoArt: Alta, FreqCard: Normal, NivelDor: Leve, Saturacao: Normal, 
+Gravidade - Alta: 0.0185, Gravidade - Media: 0.5691, Gravidade - Baixa: 0.4124, 
+
+Caso 52:
+PressaoArt: Normal, NivelDor: Leve, 
+Gravidade - Alta: 0.0070, Gravidade - Media: 0.3067, Gravidade - Baixa: 0.6863, 
+
+Caso 53:
+NivelDor: Moderada, PressaoArt: Normal, Febre: Sim, Saturacao: Normal, FreqCard: Baixa, 
+Gravidade - Alta: 0.0034, Gravidade - Media: 0.8883, Gravidade - Baixa: 0.1084, 
+
+Caso 54:
+NivelDor: Moderada, FreqCard: Baixa, 
+Gravidade - Alta: 0.0675, Gravidade - Media: 0.7718, Gravidade - Baixa: 0.1607, 
+
+Caso 55:
+Saturacao: Critica, NivelDor: Leve, Febre: Nao, 
+Gravidade - Alta: 0.3868, Gravidade - Media: 0.2261, Gravidade - Baixa: 0.3871, 
+
+Caso 56:
+PressaoArt: Baixa, 
+Gravidade - Alta: 0.1790, Gravidade - Media: 0.5796, Gravidade - Baixa: 0.2413, 
+
+Caso 57:
+Saturacao: Reduzida, NivelDor: Moderada, Febre: Nao, 
+Gravidade - Alta: 0.0416, Gravidade - Media: 0.9022, Gravidade - Baixa: 0.0562, 
+
+Caso 58:
+NivelDor: Leve, PressaoArt: Baixa, 
+Gravidade - Alta: 0.0274, Gravidade - Media: 0.2956, Gravidade - Baixa: 0.6770, 
+
+Caso 59:
+FreqCard: Alta, Febre: Sim, Saturacao: Critica, 
+Gravidade - Alta: 0.9829, Gravidade - Media: 0.0165, Gravidade - Baixa: 0.0006, 
+
+Caso 60:
+Febre: Sim, FreqCard: Alta, Saturacao: Normal, NivelDor: Intensa, 
+Gravidade - Alta: 0.7039, Gravidade - Media: 0.2792, Gravidade - Baixa: 0.0169, 
+
+Caso 61:
+Febre: Sim, PressaoArt: Alta, FreqCard: Alta, Saturacao: Critica, 
+Gravidade - Alta: 0.9954, Gravidade - Media: 0.0045, Gravidade - Baixa: 0.0001, 
+
+Caso 62:
+Febre: Nao, FreqCard: Normal, Saturacao: Reduzida, 
+Gravidade - Alta: 0.0161, Gravidade - Media: 0.8667, Gravidade - Baixa: 0.1172, 
+
+Caso 63:
+PressaoArt: Alta, Saturacao: Normal, FreqCard: Normal, 
+Gravidade - Alta: 0.0414, Gravidade - Media: 0.6561, Gravidade - Baixa: 0.3025, 
+
+Caso 64:
+PressaoArt: Alta, 
+Gravidade - Alta: 0.6696, Gravidade - Media: 0.2698, Gravidade - Baixa: 0.0607, 
+
+Caso 65:
+Febre: Sim, NivelDor: Moderada, PressaoArt: Alta, Saturacao: Normal, 
+Gravidade - Alta: 0.2017, Gravidade - Media: 0.7527, Gravidade - Baixa: 0.0457, 
+
+Caso 66:
+Febre: Sim, NivelDor: Moderada, PressaoArt: Normal, 
+Gravidade - Alta: 0.0336, Gravidade - Media: 0.9134, Gravidade - Baixa: 0.0531, 
+
+Caso 67:
+Febre: Nao, PressaoArt: Normal, FreqCard: Normal, Saturacao: Critica, 
+Gravidade - Alta: 0.0517, Gravidade - Media: 0.6937, Gravidade - Baixa: 0.2546, 
+
+Caso 68:
+Febre: Sim, NivelDor: Intensa, PressaoArt: Alta, FreqCard: Alta, Saturacao: Normal, 
+Gravidade - Alta: 0.9012, Gravidade - Media: 0.0953, Gravidade - Baixa: 0.0035, 
+
+Caso 69:
+FreqCard: Alta, PressaoArt: Normal, NivelDor: Moderada, Saturacao: Critica, 
+Gravidade - Alta: 0.5118, Gravidade - Media: 0.4549, Gravidade - Baixa: 0.0333, 
+
+Caso 70:
+FreqCard: Alta, PressaoArt: Baixa, Febre: Sim, 
+Gravidade - Alta: 0.6495, Gravidade - Media: 0.3271, Gravidade - Baixa: 0.0233, 
+
+Caso 71:
+NivelDor: Leve, FreqCard: Alta, PressaoArt: Baixa, Febre: Sim, 
+Gravidade - Alta: 0.2996, Gravidade - Media: 0.5029, Gravidade - Baixa: 0.1974, 
+
+Caso 72:
+NivelDor: Leve, FreqCard: Alta, Saturacao: Critica, 
+Gravidade - Alta: 0.8568, Gravidade - Media: 0.0822, Gravidade - Baixa: 0.0610, 
+
+Caso 73:
+FreqCard: Normal, NivelDor: Intensa, PressaoArt: Alta, Febre: Sim, Saturacao: Critica, 
+Gravidade - Alta: 0.9468, Gravidade - Media: 0.0521, Gravidade - Baixa: 0.0011, 
+
+Caso 74:
+Saturacao: Critica, NivelDor: Leve, FreqCard: Baixa, Febre: Nao, PressaoArt: Normal, 
+Gravidade - Alta: 0.0289, Gravidade - Media: 0.3168, Gravidade - Baixa: 0.6543, 
+
+Caso 75:
+FreqCard: Baixa, 
+Gravidade - Alta: 0.1790, Gravidade - Media: 0.5796, Gravidade - Baixa: 0.2413, 
+
+Caso 76:
+Febre: Sim, NivelDor: Intensa, PressaoArt: Alta, Saturacao: Critica, 
+Gravidade - Alta: 0.9936, Gravidade - Media: 0.0063, Gravidade - Baixa: 0.0001, 
+
+Caso 77:
+NivelDor: Leve, Febre: Sim, PressaoArt: Normal, Saturacao: Critica, FreqCard: Normal, 
+Gravidade - Alta: 0.0421, Gravidade - Media: 0.6762, Gravidade - Baixa: 0.2817, 
+
+Caso 78:
+Saturacao: Critica, PressaoArt: Baixa, FreqCard: Normal, Febre: Sim, 
+Gravidade - Alta: 0.4402, Gravidade - Media: 0.5195, Gravidade - Baixa: 0.0403, 
+
+Caso 79:
+FreqCard: Alta, NivelDor: Moderada, Febre: Sim, Saturacao: Critica, PressaoArt: Normal, 
+Gravidade - Alta: 0.6539, Gravidade - Media: 0.3390, Gravidade - Baixa: 0.0071, 
+
+Caso 80:
+NivelDor: Intensa, PressaoArt: Normal, Saturacao: Reduzida, FreqCard: Alta, Febre: Nao, 
+Gravidade - Alta: 0.1518, Gravidade - Media: 0.8151, Gravidade - Baixa: 0.0331, 
+
+Caso 81:
+NivelDor: Leve, FreqCard: Baixa, 
+Gravidade - Alta: 0.0274, Gravidade - Media: 0.2956, Gravidade - Baixa: 0.6770, 
+
+Caso 82:
+NivelDor: Moderada, PressaoArt: Baixa, 
+Gravidade - Alta: 0.0675, Gravidade - Media: 0.7718, Gravidade - Baixa: 0.1607, 
+
+Caso 83:
+NivelDor: Leve, Febre: Sim, FreqCard: Baixa, PressaoArt: Baixa, Saturacao: Reduzida, 
+Gravidade - Alta: 0.0246, Gravidade - Media: 0.8305, Gravidade - Baixa: 0.1449, 
+
+Caso 84:
+FreqCard: Baixa, Saturacao: Normal, Febre: Nao, PressaoArt: Normal, 
+Gravidade - Alta: 0.0022, Gravidade - Media: 0.4572, Gravidade - Baixa: 0.5406, 
+
+Caso 85:
+Saturacao: Normal, Febre: Nao, FreqCard: Normal, 
+Gravidade - Alta: 0.0050, Gravidade - Media: 0.4821, Gravidade - Baixa: 0.5130, 
+
+Caso 86:
+Saturacao: Critica, Febre: Sim, FreqCard: Normal, PressaoArt: Alta, 
+Gravidade - Alta: 0.8673, Gravidade - Media: 0.1274, Gravidade - Baixa: 0.0053, 
+
+Caso 87:
+Saturacao: Normal, Febre: Nao, FreqCard: Baixa, 
+Gravidade - Alta: 0.0198, Gravidade - Media: 0.4692, Gravidade - Baixa: 0.5110, 
+
+Caso 88:
+Febre: Sim, NivelDor: Intensa, FreqCard: Alta, PressaoArt: Alta, 
+Gravidade - Alta: 0.9766, Gravidade - Media: 0.0230, Gravidade - Baixa: 0.0004, 
+
+Caso 89:
+NivelDor: Leve, Febre: Sim, PressaoArt: Normal, Saturacao: Critica, FreqCard: Baixa, 
+Gravidade - Alta: 0.1513, Gravidade - Media: 0.5951, Gravidade - Baixa: 0.2537, 
+
+Caso 90:
+Febre: Nao, PressaoArt: Baixa, FreqCard: Baixa, NivelDor: Intensa, Saturacao: Critica, 
+Gravidade - Alta: 0.7353, Gravidade - Media: 0.2220, Gravidade - Baixa: 0.0427, 
+
+Caso 91:
+Saturacao: Critica, 
+Gravidade - Alta: 0.8833, Gravidade - Media: 0.0953, Gravidade - Baixa: 0.0214, 
+
+Caso 92:
+PressaoArt: Alta, FreqCard: Baixa, NivelDor: Leve, 
+Gravidade - Alta: 0.1277, Gravidade - Media: 0.3674, Gravidade - Baixa: 0.5049, 
+
+Caso 93:
+Saturacao: Normal, NivelDor: Intensa, 
+Gravidade - Alta: 0.2246, Gravidade - Media: 0.5727, Gravidade - Baixa: 0.2027, 
+
+Caso 94:
+NivelDor: Intensa, Febre: Sim, Saturacao: Reduzida, PressaoArt: Baixa, 
+Gravidade - Alta: 0.3577, Gravidade - Media: 0.6333, Gravidade - Baixa: 0.0090, 
+
+Caso 95:
+NivelDor: Leve, Febre: Sim, FreqCard: Alta, PressaoArt: Alta, Saturacao: Reduzida, 
+Gravidade - Alta: 0.6457, Gravidade - Media: 0.3372, Gravidade - Baixa: 0.0172, 
+
+Caso 96:
+Saturacao: Normal, NivelDor: Leve, 
+Gravidade - Alta: 0.0089, Gravidade - Media: 0.2025, Gravidade - Baixa: 0.7885, 
+
+Caso 97:
+Febre: Nao, Saturacao: Critica, 
+Gravidade - Alta: 0.8130, Gravidade - Media: 0.1426, Gravidade - Baixa: 0.0444, 
+
+Caso 98:
+PressaoArt: Alta, 
+Gravidade - Alta: 0.6696, Gravidade - Media: 0.2698, Gravidade - Baixa: 0.0607, 
+
+Caso 99:
+PressaoArt: Alta, Saturacao: Reduzida, 
+Gravidade - Alta: 0.4851, Gravidade - Media: 0.4886, Gravidade - Baixa: 0.0264, 
+
+Caso 100:
+PressaoArt: Baixa, 
+Gravidade - Alta: 0.1790, Gravidade - Media: 0.5796, Gravidade - Baixa: 0.2413, 
