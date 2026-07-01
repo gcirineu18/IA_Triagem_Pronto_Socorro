@@ -73,7 +73,7 @@ python src/simulador.py
 3. **Mapeamento de Estados:** Organiza esses dados no formato de tuplas imutáveis `(id, [p_baixa, p_media, p_alta], tempo_espera)` exigido pelo Módulo 2.
 4. **Confronto de Estratégias:** Dispara e compara de forma equivalente o custo de risco total sofrido sob as estratégias:
 * **FIFO:** Atende estritamente por ordem de chegada, ignorando a gravidade.
-* **Gulosa:** Atende sempre quem tem maior $P(\text{gravidade\_alta})$, ignorando o relógio.
+* **Gulosa:** Atende sempre quem tem maior $P(\text{gravidade alta})$, ignorando o relógio.
 * **A*:** Minimiza o risco acumulado total ponderando dinamicamente gravidade e tempo através de uma função heurística admissível.
 
 
@@ -84,10 +84,10 @@ Ao final, o terminal exibirá a auditoria de custos comprovando matematicamente 
 
 ## 👥 Componentes do Grupo
 
-* **Integrante 1 (Letícia Frota)** — 552539
-* **Integrante 2 (Nome do Colega)** — RMxxxx
-* **Integrante 3 (Nome do Colega)** — RMxxxx
-* **Integrante 4 (Nome do Colega)** — RMxxxx
+* **Bruna** — RMxxxx
+* **Guilherme** — RMxxxx
+* **Letícia Frota** — 552539
+* **Nikelly** — RMxxxx
 
 ```
 
