@@ -1,7 +1,7 @@
 # Sistema Inteligente de Triagem em Pronto-Socorro
 ---
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 Este projeto propõe uma solução inteligente para mitigar o grave problema de superlotação e lentidão em pronto-socorros brasileiros. O sistema é composto por dois módulos principais e interdependentes que visam otimizar o fluxo de atendimento médico de urgência:
 
 1. **Módulo 1 — Rede Bayesiana:** Estima e diagnostica a probabilidade de gravidade do quadro clínico do paciente com base em sintomas e sinais vitais (Febre, Saturação de O₂, Pressão Arterial, Frequência Cardíaca e Nível de Dor) utilizando inferência probabilística com a biblioteca `pgmpy`.
@@ -11,14 +11,11 @@ A fusão central do sistema reside no fato de que a probabilidade de gravidade a
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 O projeto está organizado sob a seguinte arquitetura modular e limpa:
 
 ```text
 triagem-hospitalar-ia/
-│
-├── notebooks/
-│   └── rascunho_rede_bayesiana.ipynb  # Protótipo inicial de CPTs e testes gráficos
 │
 ├── src/
 │   ├── __init__.py                    # Inicializador de pacote Python (vazio)
@@ -33,7 +30,7 @@ triagem-hospitalar-ia/
 
 ---
 
-## 🛠️ Requisitos e Instalação
+## Requisitos e Instalação
 
 O projeto foi desenvolvido em Python 3. Certifique-se de possuir o gerenciador de pacotes `pip` instalado antes de prosseguir com os passos abaixo:
 
@@ -57,7 +54,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Como Executar o Simulador
+## Como Executar o Simulador
 
 Para rodar o cenário padrão de testes contendo os experimentos comparativos exigidos no enunciado do trabalho (Cenário de Médio Porte contendo uma fila de 20 pacientes), execute o script principal de integração:
 
@@ -74,7 +71,7 @@ python src/simulador.py
 4. **Confronto de Estratégias:** Dispara e compara de forma equivalente o custo de risco total sofrido sob as estratégias:
 * **FIFO:** Atende estritamente por ordem de chegada, ignorando a gravidade.
 * **Gulosa:** Atende sempre quem tem maior $P(\text{gravidade alta})$, ignorando o relógio.
-* **A*:** Minimiza o risco acumulado total ponderando dinamicamente gravidade e tempo através de uma função heurística admissível.
+* **A\***: Minimiza o risco acumulado total ponderando dinamicamente gravidade e tempo através de uma função heurística admissível.
 
 
 

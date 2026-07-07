@@ -1,4 +1,5 @@
 import random
+import time
 from rede_bayesiana import calcular_probabilidade_gravidade
 from busca_triage import TriageProblem, a_star_search, h_triage, FIFO, greedy
 
@@ -24,6 +25,7 @@ def gerar_cenario_medio():
     return pacientes_brutos
 
 def rodar_simulacao():
+    start = time.time()
     print("=" * 65)
     print("SISTEMA INTEGRADOR DE TRIAGEM HOSPITALAR — EXPERIMENTOS")
     print("=" * 65)
@@ -35,7 +37,7 @@ def rodar_simulacao():
     for paciente in dados_recepcao:
         vetor_probabilidades = calcular_probabilidade_gravidade(paciente['sintomas'])
         
-        # CORREÇÃO CRUCIAL: Converta a lista de probabilidades em uma TUPLA imutável
+        # Converter a lista de probabilidades em uma TUPLA imutável
         vetor_probs_imutavel = tuple(vetor_probabilidades)
         
         # Monta a estrutura rigorosa usando a tupla convertida:
@@ -43,12 +45,12 @@ def rodar_simulacao():
         
     estado_inicial_imutavel = tuple(fila_preparada)
 
-    # Instancia instâncias limpas do problema para cada algoritmo
+    # Instâncias limpas do problema para cada algoritmo
     problema_astar = TriageProblem(estado_inicial_imutavel)
     problema_fifo = TriageProblem(estado_inicial_imutavel)
     problema_greedy = TriageProblem(estado_inicial_imutavel)
     
-    print(f"[*] Base de {len(dados_recepcao)} pacientes carregada e processada via pgmpy.")
+    print(f"[*] Base de {len(dados_recepcao)} pacientes gerada.")
     print("-" * 65)
     
     # Execução das estratégias comparativas
@@ -63,6 +65,9 @@ def rodar_simulacao():
     print("-" * 65)
     print(f" Ordem de chamada ótima definida pelo A*:\n {ordem_astar}")
     print("=" * 65)
+
+    execution_time = time.time() - start
+    print(f"Tempo de execução: {execution_time}")
 
 if __name__ == "__main__":
     rodar_simulacao()

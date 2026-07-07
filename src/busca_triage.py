@@ -139,8 +139,8 @@ def a_star_search(problem, h_func):
     reached = {problem.initial_state: node}
 
     while frontier:
+        
         priority, _, node = heapq.heappop(frontier)
-
         if problem.is_goal(node.state):
             return solution(node)
 
@@ -161,7 +161,7 @@ def _simular_fila_base(problem, chave_ordenacao):
     # Cada elemento p é: (id, [p_baixa, p_media, p_alta], tempo_espera)
     fila = list(problem.initial_state)
     custo_total_acumulado = 0
-    
+
     while fila:
         # Ordena dinamicamente a cada ciclo antes de chamar o próximo
         fila.sort(key=chave_ordenacao, reverse=True)
