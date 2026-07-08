@@ -75,9 +75,9 @@ def inicializar_rede():
         variable="PressaoArt",
         variable_card=3,
         values=[
-            [0.04, 0.35, 0.38],  # Normal
-            [0.21, 0.45, 0.50],  # Baixa
-            [0.75, 0.20, 0.12],  # Alta
+            [0.15, 0.50, 0.80],  # Normal (Comum em gravidade baixa)
+            [0.55, 0.30, 0.10],  # Baixa (Choque/Hipotensão = Gravidade Alta!)
+            [0.30, 0.20, 0.10],  # Alta (Hipertensão de urgência)
         ],
         evidence=["Gravidade"],
         evidence_card=[3],
@@ -92,9 +92,9 @@ def inicializar_rede():
         variable="FreqCard",
         variable_card=3,
         values=[
-            [0.04, 0.35, 0.38],  # Normal
-            [0.21, 0.45, 0.50],  # Baixa
-            [0.75, 0.20, 0.12],  # Alta
+            [0.15, 0.50, 0.85],  # Normal (Comum em gravidade baixa)
+            [0.25, 0.10, 0.05],  # Baixa (Bradicardia severa)
+            [0.60, 0.40, 0.10],  # Alta (Taquicardia por dor/infecção)
         ],
         evidence=["Gravidade"],
         evidence_card=[3],
@@ -109,9 +109,9 @@ def inicializar_rede():
         variable="NivelDor",
         variable_card=3,
         values=[
-            [0.03, 0.10, 0.55],  # Leve
-            [0.17, 0.6, 0.3],  # Moderada
-            [0.8, 0.3, 0.15],  # Intensa
+            [0.05, 0.20, 0.70],  # Leve (Comum em gravidade baixa)
+            [0.25, 0.55, 0.20],  # Moderada
+            [0.70, 0.25, 0.10],  # Intensa (Gatilho para gravidade alta)
         ],
         evidence=["Gravidade"],
         evidence_card=[3],
